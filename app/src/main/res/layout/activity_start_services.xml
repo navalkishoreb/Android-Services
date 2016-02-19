@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_sticky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_sticky"/>
+
+    <Button
+        android:id="@+id/btn_not_sticky"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_vertical_margin"
+        android:text="@string/start_not_sticky"/>
+
+    <Button
+        android:id="@+id/btn_redelivery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_vertical_margin"
+        android:text="@string/start_redelivery"/>
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_vertical_margin"
+        android:text="@string/service_stop"/>
+
+
+    <Button
+        android:id="@+id/btn_exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/button_vertical_margin"
+        android:text="@string/process_exception"/>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:gravity="center"
+        android:paddingBottom="30dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/button_vertical_margin"
+        android:text="@string/next_local_binder"/>
+
+</LinearLayout>
