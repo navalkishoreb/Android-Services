@@ -73,9 +73,11 @@ public class RemoteBoundServices extends AppCompatActivity implements View.OnCli
 				}
 			} else {
 				Log.e(TAG, "remote connection is NULL");
+				outputText.setText("not connected to service.");
 			}
 		} else {
 			Log.e(TAG, "useless attempt to encode empty text");
+			outputText.setText("empty text field");
 		}
 	}
 
