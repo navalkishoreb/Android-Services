@@ -225,12 +225,12 @@ public class DemoService extends Service implements LocalService , RemoteService
 
 	@Override
 	public String encode(String data) {
-		Log.d(TAG,"making receiver wait for few seconds");
+		/*Log.d(TAG,"making receiver wait for few seconds");
 		try {
-			Thread.sleep(10000);
+			Thread.sleep(100000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
-		}
+		}*/
 		return String.valueOf(data.hashCode());
 	}
 }
